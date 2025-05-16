@@ -1,0 +1,80 @@
+/* Set the background color of the main window */
+QWidget {
+    background-color: midnightblue;
+}
+
+/* Style for QLabel */
+QLabel {
+    font-size: 16px;
+    color: darkgreen;
+}
+
+/* Specific style for winLabel */
+#winLabel {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+#lossLabel {
+    font-size: 18px;
+    color: firebrick;
+    font-weight: bold;
+}
+
+#killsLabel {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+#deathsLabel {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+
+#avgLabel {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+#kdLabel {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Style for QPushButton */
+QPushButton {
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+#winButton {
+    background-color: red;
+    color: white;
+}
+
+/* Style for QPushButton when hovered */
+QPushButton:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Style for QPushButton with red background */
+QPushButton[style="red"] {
+    background-color: red;
+    color: white;
+}
+
+/* Style for QPushButton with green background */
+QPushButton[style="green"] {
+    background-color: green;
+    color: white;
+}
